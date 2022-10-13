@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+.firstsection{
+    background-color: rgb(63, 61, 61);
+}
+.navbar{
+ display: flex;
+}
+.companyname{
+    color:rgb(0, 255, 234);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    margin-right:60px;
+}
+.navul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navul li{
+    margin:10px 20px 10px 43px;
+   
+}
+.navul a{
+    text-decoration: none;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+
+   
+}
+.inptsearch{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 8px;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 46%;
+
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+    justify-content: end;
+    width: 100%;
+
+}
+.srch{
+    height: 32px;
+    margin-left: 6px;
+    border: 1px solid rgb(58, 54, 54);
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 16%;
+    margin-right: 11px;
+  
+
+}
+.navul li a:hover{
+    color: rgb(177, 172, 172);
+}
+.srch:hover{
+    background-color: rgb(0, 255, 234);
+    color:black
+}
+#badge{
+    background-color: rgb(255, 255, 91);
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* display: none; */
+    opacity:0;
+}
+.abtbadge{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(53, 49, 49);
+
+}
+
+.backgroundabt{
+    background:url("background3.jpg");
+    background-repeat: no-repeat;
+    height: 33em;
+    background-size: 85em 37em;
+
+}
+
+.aboutme{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abt{
+    color:rgb(0, 255, 234);
+    font-size: 51px;
+    text-align: center;
+}
+.myimg{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 27%;
+    margin-top: 6em;
+}
+.abtm{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+    margin-top: 6em;
+
+}
+.kritik{
+    height: 216px;
+    width: 219px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 135px;
+}
+.hire{
+    margin-left: 37%;
+}
+#hire-me{
+    width: 13%;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 39px;
+    background-color: white;
+    border:1px solid white
+}
+#hire-me a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+}
+#hire-me:hover{
+    background-color:rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0)
+}
+#hire-me a:hover{
+    color:black;
+}
+.web{
+    color:red;
+    
+}
+@keyframes change {
+    from{color: red;}
+    to{color:rgb(0, 255, 234);}
+}
+.web{
+  animation-name: change;
+  animation-duration: 2s;
+  text-decoration: underline;
+}
+.imgd{
+    color:rgb(0, 255, 234);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.background{
+    background-color:rgb(26, 24, 24);
+    height: 126em;
+
+}
+ .proj{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(187, 181, 181);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+
+}
+.imgd{
+    text-align: center;
+}
+.fimg{
+    width: 75%;
+    height: 255px;
+    border: 1px solid grey;
+    border-radius: 7px;
+
+}
+.pimages{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.pimages2{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.mainimg{
+    text-align: center;
+}
+.mimg{
+    margin-left: 133px;
+    width: 50%;
+}
+.mimg2{
+    width: 50%;
+    margin-right: 105px;
+}
+.pd{
+    margin-top: 10px;
+    text-align: center;
+}
+.tic{
+    font-size: 20px;
+    color:rgb(0, 255, 234);
+}
+.btnimg{
+    width: 17%;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.btnimg a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnimg:hover{
+    background-color:rgb(0, 255, 234) ;
+    border: 1px solid rgb(0, 255, 234);
+}
+.skillmain{
+    height:550px;
+    /* background-color: rgb(31, 29, 29); */
+    margin-top: 60px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(187, 181, 181);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.abtskill{
+    text-align: center;
+    font-size: 24px;
+    color:rgb(0, 255, 234) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 19px;
+}
+.skilldiv{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.skilldiv img{
+    width: 27px;
+    height: 25px;
+    margin:0 5px 0 7px;
+}
+.rclass{
+    width:56%;
+    margin-left: 4%;
+}
+.abtsd{
+    font-size: 25px;
+    color:rgb(0, 255, 234);
+    
+}
+.skillset{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width:10%;
+}
+.divform{
+    display: flex;
+    justify-content: center;
+}
+.myform{
+    width: 50%;
+}
+#email, #query, #yname{
+    width: 100%;
+    height: 40px;
+    margin: 7px 0 7px 0;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 0 0 0 12px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abtform{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.contactus{
+    color: rgb(187, 181, 181);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-decoration: underline;
+}
+.conm{
+    margin-bottom: 23px;
+}
+.abtcon{
+    font-size: 24px;
+    color:rgb(0, 255, 234) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#query{
+    height:119px;
+}
+.divinpt{
+    text-align: center;
+    
+}
+#nerror,#eerror,#qerror{
+    color:white;
+    font-size: 18px;
+   
+}
+.errors{
+    display: flex;
+    width:50%;
+    
+}
+.submitbtn{
+    margin-top:9px;
+
+}
+.submitbtn button{
+    width: 17%;
+    height: 30px;
+    font-size: 19px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor:pointer;
+    margin-top:5px;
+}
+.submitbtn button:hover{
+    background-color: rgb(0, 255, 234);
+    border: 1px solid rgb(0, 255, 234);
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.divsocial{
+    margin: 0px 5px 0 17px;
+}
+.abtsocial{
+width:100%;
+}
+.abtso{
+    font-size: 24px;
+    color:rgb(0, 255, 234);
+}
+#twitter{
+    color:rgb(0, 153, 255);
+}
+#twitter:hover{
+    color:rgb(94, 191, 255);
+}
+#instagram{
+    color:rgb(233, 58, 52);
+}
+.accounts{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 46px;
+}
+#instagram:hover{
+    color:rgb(255, 106, 101);
+}
+#facebook{
+    color:rgb(38, 38, 255)
+}
+#facebook:hover{
+    color:rgb(95, 95, 255)
+}
+.bottom{
+    height:70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 61, 61);
+    margin-top: 39px;
+}
+.copyright{
+    font-size: 20px;
+    color:rgb(0, 255, 234);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.abtfollow{
+    font-size: 30px;
+    color:rgb(0, 255, 234);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.follow{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 46px;
+}
+
+#burger{
+    background-color: wheat;
+    width:36px;
+    height:25px;
+    display: flex;
+    cursor: pointer;
+    display:none;
+}
+#lines{
+    margin-left: 5px;
+}
+.line{
+    width:20px;
+    height:3px;
+    background-color:black;
+    margin-top: 3px;
+}
+.newline{
+width:200px;
+background-color: red;
+height:100px;
+
+}

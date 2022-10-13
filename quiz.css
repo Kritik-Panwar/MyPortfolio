@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(184, 96, 255);
+}
+.start{
+    display: flex;
+    justify-content: center;
+    margin-top:300px;
+    
+    
+
+}
+#startbtn{
+    width: 125px;
+    height: 56px;
+    font-size: 25px;
+    border: 1px solid rgb(43, 60, 107);
+    border-radius: 8px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    cursor:pointer;
+    
+}
+.strtnone{
+    display: none;
+}
+
+
+.inforules {
+    background-color: white;
+    width: 40%;
+    height: 220px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin:143px auto;
+    display: none;
+}
+.infodisplay{
+    display: block;
+}
+.info{
+    padding:8px 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.buttons{
+    text-align: right;
+    margin:10px auto;
+
+}
+.btns{
+    margin-left: 8px;
+    width: 94px;
+    height: 30px;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(14, 71, 226);
+    color: white;
+    border: 1px solid rgb(43, 60, 107);
+    border-radius: 6px;
+    cursor:pointer;
+}
+.timer{
+    background-color: rgb(109, 219, 208);
+    border-radius: 4px;
+    font-size: 20px;
+    height: 27px;
+    width: 125px;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 43%;
+}
+.txt{
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.timec{
+    background-color: black;
+    color:white;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.infotitle span{
+    font-weight: bolder;
+    font-size: 21px;
+    padding-left:3px;
+    margin-bottom: 3px;
+}
+.infotitle{
+    margin-bottom: 5px;
+}
+.quiz{
+    border-radius: 6px;
+    background-color: white;
+    width: 45%;
+    height: 454px;
+    margin: 100px auto;
+    display: none;
+}
+.quizbox{
+    display: block;
+}
+.quizapp{
+    padding-top:10px;
+    display: flex;
+    margin-bottom:30px;
+    font-size: 18px;
+
+}
+.options{
+    border: 1px solid grey;
+    margin: 10px 22px;
+    padding: 17px 13px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size:18px;
+    cursor: pointer;
+    font-family:sans-serif;
+    
+}
+.green{
+    background-color: rgb(177, 238, 177);
+}
+.red{
+    background-color: rgb(228, 169, 169);
+}
+.disable{
+    pointer-events: none;
+}
+.questionlist span{
+    margin-top:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.questionlist{
+    margin-left:20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.app {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left:20px;
+}
+.next{
+    text-align: right;
+    margin-top:20px;
+    
+}
+#nextbtn{
+    width: 21%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(43, 60, 107);
+    margin-right:40px;
+    background-color:rgb(14, 71, 226);
+    color:white;
+    cursor: pointer;
+
+}
+.info span{
+    color:rgb(14, 71, 226);
+}
+.col{
+    color:green;
+    margin-left:250px;
+}
+.col2{
+    color:red;
+    margin-left:250px;
+   
+}
+.result{
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(43, 60, 107);
+    width: 43%;
+    height: 320px;
+    margin:200px auto;
+    border-radius: 4px;
+    padding:10px 20px;
+    display: none;
+
+    
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.quiznone{
+    display: none;
+}
+.resdisplay{
+    display: block;
+}
+.trophy{
+    color:gold;
+    margin-top: 20px;
+}
+.quitrep{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 60px;
+
+
+}
+.quit{
+    font-size: 20px;
+    background-color:rgb(14, 71, 226);
+    width: 111px;
+    height: 40px;
+    color: white;
+    border-radius: 4px;
+    border:1px solid rgb(43, 60, 107);
+    font-family: sans-serif;
+    cursor:pointer;
+}
+.quit{
+    margin-left:10px;
+}
+.resultnone{
+    display: none;
+}
+.quizshowing{
+    display: block;
+}

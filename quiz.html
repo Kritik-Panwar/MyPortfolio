@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App </title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="start">
+        <button id = "startbtn">Start Quiz</button>
+    </div>
+    <div class="inforules ">
+        <div class="infotitle">   
+            <span>Some rules of this Quiz</span>
+        </div>
+     <div class="rules">
+        <div class="info">1.You have only <span>20 seconds</span> per question</div>
+        <div class="info">2.Once you select your answer you can't reset</div>
+        <div class="info">3.You cant select answer once time goes off</div>
+        <div class="info">4.You get points on the basis of your correct answer</div>
+     </div>
+    <div class="buttons">
+        <button class="btns"id = "exit">Exit quiz</button>
+        <button class="btns"id = "cont">Continue</button>
+    </div>
+</div>
+</div>
+    <div class="quiz">
+            <div class="quizapp">
+               <span class = "app">Quiz Applicaion</span> 
+                <div class="timer">
+                    <span class = "txt">Time left </span><div class = "timec"><span id = "time">15</span></div>
+                </div>
+            </div>
+            <div class="questionlist">        
+        <!-- <span class = "questext">What does HTML stands for?</span> -->
+            </div>
+
+    <div class="optionlist">
+         <!-- <div class="options"> 
+             <span>HyperText Preprocessor<i class="far col2 fa-times-circle"></i></span>
+        </div>
+        <div class="options">
+            <span>HyperText Moral Language<i class="far col2 fa-times-circle"></i></span>
+        </div>
+        <div class="options">
+            <span>HyperText Markup Language<i class="far col fa-check-circle"></i></span>
+        </div>
+        <div class="options">
+            <span>HyperText Multi Language<i class="far col2 fa-times-circle"></i></span>
+        </div>   -->    
+    </div>
+
+
+    <div class="next">
+        <button id = "nextbtn"> Next Ques</button>
+    </div>   
+    </div>
+    <div class="result">
+        <i class="fas fa-8x trophy fa-trophy"></i>
+        <span class = "ans"> <span class="score"></span></span>
+        <div class="quitrep">
+            <button class = "quit">Quit</button>
+        </div>
+    </div>
+
+    
+    
+</body>
+<script src="quiz.js"></script>
+<script src="https://kit.fontawesome.com/ea6e41f62f.js" crossorigin="anonymous"></script>
+</html>

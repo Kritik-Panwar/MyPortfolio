@@ -1,0 +1,94 @@
+
+body{
+    background-color: rgb(141, 140, 140);
+}
+#twitter{
+    text-align: center;
+    margin-bottom: 35px;
+    color:rgb(4, 113, 255);
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 15px;
+    height:550px;
+    width:43%;
+    text-align: center;
+    background-color: white;
+    margin: 10px auto;
+}
+.signing, .signinA, .forgot{
+    border:1px solid #808080;
+    border-radius:30px;
+    width: 55%;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:normal;
+    cursor:pointer;
+}
+.signinA{
+    margin-top: 30px;
+    font-weight: bolder;
+
+    
+}
+.signing:hover{
+    background-color: rgb(236, 230, 230);
+}
+.signinA:hover{
+    background-color: rgb(236, 230, 230);
+}
+
+.google, .apple{
+    padding-left:8px;
+}
+.inpt{
+    width: 55%;
+    height: 7.5%;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.inpt:hover{
+    border:2px solid rgb(4, 113, 255);
+}
+.btn{
+    width: 55%;
+    height: 6.5%;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    margin-top: 29px;
+    border-radius: 20px;
+    border: 1px solid rgb(12, 12, 12);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(36, 33, 33);
+}
+.forgot{
+    margin-top:30px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.forgot:hover{
+    background-color: rgb(236, 230, 230);
+}
+.signUp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:27px;
+
+}
+.signup{
+    color:rgb(4, 113, 255);
+    cursor: pointer;
+   
+}
+

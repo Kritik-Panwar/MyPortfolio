@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="firstsection">
+        <nav class="navbar">
+            <ul class="navul">
+                <span class="companyname">MyPortfolio</span>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="You can search here..." class="inptsearch">
+                <button class="srch">search</button>
+            </div>
+        </nav>
+    </div>
+    <section class="backgroundabt" >
+        <div id="badge" >
+            <span class="abtbadge">Hey! welcome to my website, this is my portfolio website you can hire me for your upcoming projects</span>
+        </div>
+        <div class="aboutme" >
+            <div class="abtm">
+                <span class="abt">Hi, I am a <span class="web">web developer</span> who can develop and design your websites</span>
+            </div>
+            <div class="myimg">
+                <img src="kritik2.jpg" class="kritik" alt="myphoto">
+            </div>
+        </div>
+        <div class="hire">
+
+            <button id="hire-me"><a href="hired.html" id = "hired">Hire Me</a></button>
+        </div>
+    </section>
+
+    <section class = "background">
+
+        <div class="myprojects" id = "project">
+            <div>
+                <span class="proj">Projects </span><br>
+            </div>
+            <div class="imgd">
+
+                Here are some projects that I have made.<br> Below are some of them you can view these by clicking check the button below!
+            </div>
+            <div class="pimages">
+                <div class="mainimg mimg">
+                    <img src="Screenshot_172.png" alt="pimg" class="fimg" srcset="">
+                    <div class="pd">
+                        <span class="tic">TIC-TAC-TOE GAME </span><br>
+                        <button class="btnimg"><a href="tic-tac-toe.html">check..</a></button>
+                    </div>
+                </div>
+                <div class="mainimg mimg2">
+                    <img src="quiz.png" alt="pimg" class="fimg" srcset="">
+                    <div class="pd">
+                        <span class="tic">QUIZ APPLICATON</span><br>
+                        <button class="btnimg"><a href="quiz.html">check..</a></button>
+                    </div>
+                </div><br>
+            </div>
+            <div class="pimages2">
+                <div class="mainimg mimg">
+                    <img src="twitter.png" alt="pimg" class="fimg" srcset="">
+                    <div class="pd">
+                        <span class="tic">TWITTER LOGIN PAGE</span><br>
+                        <button class="btnimg"><a href="twitterloginpage.html" target="_blank">check..</a></button>
+                    </div>
+                </div>
+                <div class="mainimg mimg2">
+                    <img src="Screenshot_3.png" alt="pimg" class="fimg" srcset="">
+                    <div class="pd">
+                        <span class="tic">KEY PRESS DETECT</span><br>
+                        <button class="btnimg"><a href="keypressdetect.html">check..</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skillmain" id = "skill">
+            <div>
+                <span class="skills">Skills</span>
+            </div>
+            <div class="abtskill">
+                <span class="abts">Here are my major focused skills!</span>
+            </div>
+            <div class="skilldiv">
+                <span class="abtsd skillset">HTML</span>
+                <img src="html.png" alt="" srcset="">
+                <span class="abtsd">:</span>
+                <input type="range" name="" class="rclass" max="100" min="0" value="90">
+            </div>
+            <div class="skilldiv">
+                <span class="abtsd skillset">CSS</span>
+                <img src="css-3.png" alt="" srcset="">
+                <span class="abtsd">:</span>
+                <input type="range" name="" class="rclass" max="100" min="0" value="87">
+            </div>
+            <div class="skilldiv">
+                <span class="abtsd skillset">JAVASCRIPT</span>
+                <img src="js.png" alt="" srcset="">
+                <span class="abtsd">:</span>
+                <input type="range" name="" class="rclass" max="100" min="0" value="80">
+            </div>
+            <div class="skilldiv">
+                <span class="abtsd skillset">REACT JS</span>
+                <img src="react.png" alt="" srcset="">
+                <span class="abtsd">:</span>
+                <input type="range" name="" class="rclass" max="100" min="0" value="75">
+            </div>
+            <div class="skilldiv">
+                <span class="abtsd skillset">PHP</span>
+                <img src="php.png" alt="" srcset="">
+                <span class="abtsd">:</span>
+                <input type="range" name="" class="rclass" max="100" min="0" value="80">
+            </div>
+        </div>
+
+        <div class="divform" id = contact>
+            <form action="portfolio.php" class="myform" onsubmit="return myformfunc()" name = "myform" method="post">
+                <div class="abtform conm">
+                    <span class="contactus">Contact Me</span>
+                </div>
+                <div class="abtc abtform">
+                    <span class="abtcon ">Do you have any query or questions, feel free to ask!</span>
+                </div>
+                <div class="divinpt">
+                    <input type="text" name="myname" id="yname" placeholder="Full Name" required><span id="nerror" class = "errors"></span>
+                </div>
+                <div class="divinpt">
+                    <input type="email" name="myemail" id="email" placeholder="Enter your email" required><span id="eerror" class = "errors"></span>
+                </div>
+                <div class="divinpt">
+                <textarea name="myquery" id="query" cols="30" rows="30" placeholder="Write about your query here.........." class = "errors" required></textarea><span id="qerror"></span>
+                </div>
+                <div class="submitbtn divinpt">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="socialmedia">
+            <div class="follow">
+                <span class="abtfollow">Follow me on: </span>
+            </div>
+            <div class="accounts">
+            <div class="divsocial">
+               <a href="http://twitter.com/KritikPanwar" target="_blank"> <i class="fab fa-twitter fa-2x" id = "twitter"></i></a>
+            </div>
+            <div class="divsocial">
+                <a href="http://instagram.com/KritikPanwar" target="_blank"><i class="fab fa-instagram fa-2x" id = "instagram"></i></a>
+            </div>
+            <div class="divsocial">
+                <a href="https://facebook.com/KritikPanwar" target="_blank"><i class="fab fa-facebook fa-2x" id = "facebook"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="bottom">
+            <span class="copyright">&#169;2022 MyPortfolio India, Inc. All rights reserved </span>
+        </div>
+        <button id="burger" onclick = "myfunc()">
+        <div id="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </button>
+
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/ea6e41f62f.js" crossorigin="anonymous"></script>
+
+<script src = "index.js">
+
+
+</script>
+
+</html>
